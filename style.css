@@ -1,0 +1,1427 @@
+/*
+Theme Name: Twenty Twenty Child
+Template: twentytwenty
+Version: 1.0.1
+*/
+
+/* police */
+@font-face{
+    font-family: 'fonts/ninja';
+    src: url('ninja.ttf');
+}
+
+h1, h2, h3, h4, h5, h6, p, a{
+  font-family: 'fonts/ninja', Arial, serif !important;
+}
+
+/* Page 404 */
+body.error404{
+  background-image:url("https://etudiants-caweb.u-strasbg.fr/2021/damienly/wordpress_projet_pro/wp-content/uploads/2021/03/2793_00001-min-scaled.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body.error404 h1{
+  font-size: 2.8em;
+}
+
+body.error404 p{
+  font-size: 0.9em;
+}
+
+form.search-form {
+  display: none;
+}
+
+/* End Page 404 */
+
+
+/* Header*//* national flag */
+
+/* Navigation bar */
+/*  Hide the Menu Toggle */
+.header-toggles{
+  display: none;
+ }
+
+/* Menu */
+.primary-menu.reset-list-style a:hover{
+   text-decoration: none;
+   background-color: #731a22;
+   color: white;
+ }
+
+.primary-menu ul a{
+  color: white !important;
+  font-size: 1.1em;
+}
+
+ .primary-menu > li > a {
+    color: white !important;
+    padding: 10px 30px;
+    border-right: 1px solid #8C1F28;
+    font-size: 1.1em;
+ }
+
+ /*  Center the Menu Items */
+#site-header{
+  justify-content: center;
+  background-color: rgba(0,0,0,0.6);
+  margin-bottom: 2%;
+  margin-left: 4%;
+  margin-right: 4%;
+ }
+
+ul.primary-menu.reset-list-style li{
+   margin: 0;
+   padding: 0;
+}
+
+ /* --- Menu Items --- */
+ /* Hide the dropdown icon */
+ .primary-menu > li > .icon {
+   display: none;
+ }
+
+ .primary-menu > li.menu-item-has-children > a {
+    padding-right: 20px;
+    margin-right: 0;
+ }
+
+/* Reservation button */
+.primary-menu > li:last-child a{
+  background-color: #8C1F28;
+  margin-left: 10px;
+}
+
+.primary-menu > li:nth-last-child(2) a{
+  border-right: none;
+}
+
+ .primary-menu > li:last-child a:hover {
+   background-color: #731a22;
+ }
+
+ /* End Navigation bar */
+
+
+ /* Navigation bar mobile */
+ /* Ellipses */
+ #site-header > div.header-inner.section-inner > div.header-titles-wrapper > button.toggle.nav-toggle.mobile-nav-toggle{
+color: white;
+ }
+
+body > div.menu-modal.cover-modal.header-footer-group.show-modal.active > div{
+  background-color: rgba(0,0,0,0.7);
+}
+
+body > div.menu-modal.cover-modal.header-footer-group.show-modal.active > div > div > div.menu-top > nav > ul > li.menu-item > div > a{
+  color: white;
+  text-decoration: none;
+}
+
+body > div.menu-modal.cover-modal.header-footer-group.show-modal.active > div > div > div.menu-top > nav > ul > li.menu-item > div > a:hover{
+  background-color: #8C1F28;
+  text-decoration: none;
+}
+
+/* Icon */
+body > div.menu-modal.cover-modal.header-footer-group.show-modal.active > div > div > div.menu-top > nav > ul > li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-has-children> div > button{
+  color:white;
+}
+
+body > div.menu-modal.cover-modal.header-footer-group.show-modal.active > div > div > div.menu-top > nav > ul > li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-has-children> div > button:hover{
+  background-color:#8C1F28;
+  color:red;
+}
+
+/* Dropdown menu */
+body > div.menu-modal.cover-modal.header-footer-group.show-modal.active > div > div > div.menu-top > nav > ul > li.menu-item.menu-item-type-post_type.menu-item-object-page > ul > li > div > a{
+  color: white;
+  text-decoration: none;
+}
+
+body > div.menu-modal.cover-modal.header-footer-group.show-modal.active > div > div > div.menu-top > nav > ul > li.menu-item.menu-item-type-post_type.menu-item-object-page > ul > li > div > a:hover{
+  background-color: #8C1F28;
+}button.toggle span.toggle-text{  color: white;text-decoration: none;}button.toggle svg.svg-icon{  color: white;}button.toggle.sub-menu-toggle:hover{background-color: #8C1F28;}ul.sub-menu .menu-item1774-en .ancestor-wrapper:hover, ul.sub-menu .menu-item1774-fr .ancestor-wrapper:hover, ul.sub-menu .menu-item1774-zh .ancestor-wrapper:hover{background-color: #8C1F28;}
+
+/* End Navigation bar mobile */
+
+/* Hide h1 */
+ .entry-header {
+   display: none !important;
+ }
+
+/* Remove margins */
+ .post-inner{
+    padding-top: 0;
+ }
+
+/* End of Hide h1 */
+
+/* End header */
+
+
+/* Page Menu desktop */
+body.page-id-12, body.page-id-1060:lang(en), body.page-id-1258:lang(fr), body.page-id-1285{
+  background-image:url("https://etudiants-caweb.u-strasbg.fr/2021/damienly/wordpress_projet_pro/wp-content/uploads/2021/03/3120_00042-min-scaled.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* bannière */
+body.page-id-12 #site-content{
+  background-image: url("https://etudiants-caweb.u-strasbg.fr/2021/damienly/wordpress_projet_pro/wp-content/uploads/2021/04/menu-1024x299.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* images */
+.wp-image-623{
+  width: 45%;
+  margin: auto;
+}
+
+.wp-image-1559{
+  width: 45%;
+  margin: auto;
+}
+
+.wp-image-1511{
+  width: 45%;
+  margin: auto;
+}
+
+.wp-image-1411{
+  width: 45%;
+  margin: auto;
+}
+
+body.page-id-12 .photo-menu{
+  display: none;
+}
+
+body.page-id-1060 .photo-menu, body.page-id-1258 .photo-menu, body.page-id-1285 .photo-menu{
+  width: 70% !important;
+}
+
+body.page-id-12 .wp-block-columns{
+  width: 150%;
+}
+
+/* text */
+body.page-id-12 h2, body.page-id-1060 h2, body.page-id-1258 h2, body.page-id-1285 h2{
+  font-size: 1.7em;
+  background-color: white;
+  border-radius: 5px;
+  display: inline-block;
+  width: 30% !important;
+  position: relative;
+  left: 35%;
+}
+
+body.page-id-12 p, body.page-id-1060 p, body.page-id-1285 p, body.page-id-1258 .text-menu{
+  font-size: 0.9em;
+  text-align: justify;
+}
+
+body.page-id-1258 p{
+  font-size: 0.8em;
+  text-align: justify;
+}
+
+body.page-id-1060 .veggie, body.page-id-1258 .veggie, body.page-id-1285 .veggie{
+  font-size: 0.6em;
+  text-align: justify;
+}
+
+/* pdf */
+body.page-id-1060 .menu_pdf a, body.page-id-1258 .menu_pdf a, body.page-id-1285 .menu_pdf a{
+  color: white;
+  font-weight: normal;
+}
+
+body.page-id-1060 .menu_pdf a:hover, body.page-id-1258 .menu_pdf a:hover, body.page-id-1285 .menu_pdf a:hover{
+  text-decoration: none;
+  opacity: 0.5;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+}
+
+/* End Page Menu desktop */
+
+/* Page Menu mobile */
+body.page-id-1737{
+  background-image:url("https://etudiants-caweb.u-strasbg.fr/2021/damienly/wordpress_projet_pro/wp-content/uploads/2021/03/3120_00042-min-scaled.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* logo */
+body.page-id-1737 .wp-image-623{
+  width: 60%;
+  margin: auto;
+}
+
+/* text */
+body.page-id-1737 h2{
+  font-size: 1.3em;
+  background-color: white;
+  border-radius: 5px;
+  display: inline-block;
+  width: 70% !important;
+  position: relative;
+  left: 15%;
+}
+
+#post-12 > div.post-inner.thin > div > div:nth-child(3){
+  margin-bottom: 35px;
+}
+
+#post-12 > div.post-inner.thin > div > p:nth-child(4) > strong:nth-child(n) > span{
+  font-size: 1.5em;
+}
+
+/* pdf*/
+body.page-id-1737 .menu_pdf a{
+  color: white;
+  font-size: 0.8em;
+  display: none;
+}
+
+/* body.page-id-1737 .menu_pdf a:hover{
+  text-decoration: none;
+}
+
+body.page-id-1737 .menu_pdf a.wp-block-file_button{
+  width: 75% !important;
+}*/
+
+/* End Page Menu mobile */
+
+
+/* Page Enkai desktop */
+body.page-id-30{
+  background-image:url("https://etudiants-caweb.u-strasbg.fr/2021/damienly/wordpress_projet_pro/wp-content/uploads/2021/03/2894_00004-min-scaled.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* bannière */
+body.page-id-30 #site-content{
+  background-image: url("https://etudiants-caweb.u-strasbg.fr/2021/damienly/wordpress_projet_pro/wp-content/uploads/2021/04/party-1024x299.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* images */
+.wp-image-1376{
+  width: 45%;
+  margin: auto;
+}
+
+body.page-id-30 .wp-image-804{
+  display: none;
+}
+
+body.page-id-30 .wp-image-601{
+  display: none;
+}
+
+/* text */
+.page-id-30 p{
+  font-size: 0.9em;
+}
+
+/* End Page Enkai desktop */
+
+/* Page Enkai mobile */
+body.page-id-1750{
+  background-image:url("https://etudiants-caweb.u-strasbg.fr/2021/damienly/wordpress_projet_pro/wp-content/uploads/2021/03/2894_00004-min-scaled.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* images */
+body.page-id-1750 .wp-image-1376{
+  width: 60%;
+  margin: auto;
+}
+
+/* End Enkai mobile */
+
+
+/* Page About us desktop */
+body.page-id-9, body.page-id-1076:lang(en), body.page-id-1239:lang(fr), body.page-id-1291{
+  background-image: url("https://etudiants-caweb.u-strasbg.fr/2021/damienly/wordpress_projet_pro/wp-content/uploads/2021/03/2963_00023-min-scaled.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* bannière */
+body.page-id-9 #site-content{
+  background-image: url("https://etudiants-caweb.u-strasbg.fr/2021/damienly/wordpress_projet_pro/wp-content/uploads/2021/04/aboutus-1024x299.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* images */
+.wp-image-1383{
+  width: 85%;
+}
+
+.wp-image-1557{
+  width: 50%;
+  margin: auto;
+}
+
+.wp-image-1515{
+  width: 60%;
+  margin: auto;
+}
+
+.wp-image-1413{
+  width: 45%;
+  margin: auto;
+}
+
+body.page-id-9 .titre::before, body.page-id-1076 .titre::before, body.page-id-1239 .titre::before, body.page-id-1291 .titre::before{
+  content: URL('gyoza_icon.png');
+}
+
+/* text */
+body.page-id-9 h2{
+  font-size: 1.2em;
+}
+
+body.page-id-9 .titre{
+  font-size: 1.2em;
+  text-align: center;
+}
+
+body.page-id-9 p{
+  font-size: 0.9em;
+}
+
+body.page-id-1076 h2, body.page-id-1239 h2, body.page-id-1291 h2{
+  font-size: 1.2em;
+  text-align: center !important;
+}
+
+body.page-id-1076 p.about, body.page-id-1239 p.about, body.page-id-1291 p.about{
+  font-size: 0.8em;
+  text-align: justify;
+}
+
+body.page-id-9 .important{
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+/* End Page About us desktop */
+
+/* Page About us mobile */
+body.page-id-1753{
+  background-image: url("https://etudiants-caweb.u-strasbg.fr/2021/damienly/wordpress_projet_pro/wp-content/uploads/2021/03/2963_00023-min-scaled.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* images */
+body.page-id-1753 .wp-image-1383{
+  width: 60%;
+  margin: auto;
+}
+
+body.page-id-1753 .titre::before {
+  content: URL('gyoza_icon.png');
+  height: 50%;
+}
+
+/* text */
+body.page-id-1753 h2{
+  font-size: 1.1em;
+}
+
+body.page-id-1753 .important{
+  font-weight: bold;
+  font-size: 1em;
+}
+
+/* End Page About us mobile */
+
+
+/* Page Support us desktop */
+body.page-id-26, body.page-id-1079:lang(en), body.page-id-1255:lang(fr), body.page-id-1288{
+  background-image:url("https://etudiants-caweb.u-strasbg.fr/2021/damienly/wordpress_projet_pro/wp-content/uploads/2021/03/3115_00041-min-scaled.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* images */
+body.page-id-26 .wp-image-1380{
+  width: 45%;
+  margin: auto;
+}
+
+.wp-image-1555{
+  width: 55%;
+  margin: auto;
+}
+
+.wp-image-1517{
+  width: 60%;
+  margin: auto;
+}
+
+.wp-image-1415{
+  width: 45%;
+  margin: auto;
+}
+
+/*body.page-id-26 .wp-image-666{
+  width: 35%;
+  position: absolute;
+  top: 40%;
+  right: 15%;
+}@media screen and (min-width: 1400px) {    body.page-id-26 .wp-image-666 {  width: 27%;  }}*/
+
+.wp-image-555{
+  width: 100%;
+}
+
+.wp-image-592{
+  width: 75%;
+}
+
+/* text */
+body.page-id-26 h2, body.page-id-1079 h2, body.page-id-1255 h2, body.page-id-1288 h2,{
+  font-size: 1.5em;
+}
+
+body.page-id-26 h3, body.page-id-1079 h3, body.page-id-1255 h3, body.page-id-1288 h3{
+  font-size: 1.2em;
+}
+
+body.page-id-26 p{
+  font-size: 0.9em;
+}
+
+body.page-id-1079 p, body.page-id-1255 p, body.page-id-1288 p{
+  font-size: 0.9em;
+  text-align: justify;
+}
+
+body.page-id-26 .petit, body.page-id-1079 .petit, body.page-id-1255 .petit, body.page-id-1288 .petit{
+  font-size: 0.7em;
+}
+
+/* submit button */
+#wpforms-submit-91, #wpforms-submit-1114, #wpforms-submit-1326, #wpforms-submit-1405{
+    background-color: #ffffff;
+}
+
+#wpforms-submit-91:hover, #wpforms-submit-1114:hover, #wpforms-submit-1326:hover, #wpforms-submit-1405:hover{
+    color: white;
+    background-color: #8C1F28;
+    border-color: #8C1F28;
+}
+
+/* bloc */
+.kojinjouhou{
+  background-color: rgba(100, 100, 100, 0.5) !important;
+  height: 400px !important;
+  width: 60% !important;
+  overflow: auto;
+  padding: 1% !important;
+}
+
+.kojinjouhou h2{
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.kojinjouhou p{
+  font-size: 0.8em !important;
+}
+
+/* End Page Support us desktop */
+
+/* Page Support us mobile */
+body.page-id-1756{
+  background-image:url("https://etudiants-caweb.u-strasbg.fr/2021/damienly/wordpress_projet_pro/wp-content/uploads/2021/03/3115_00041-min-scaled.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* images */
+body.page-id-1756 .wp-image-1380{
+  width: 60%;
+  margin: auto;
+}
+
+/* text */
+body.page-id-1756 .petit{
+  font-size: 0.7em;
+}
+
+/* End Page Support us mobile */
+
+
+/* Page Media desktop */
+body.page-id-28, body.page-id-1070:lang(en), body.page-id-1252:lang(fr), body.page-id-1282{
+  background-image:url("https://etudiants-caweb.u-strasbg.fr/2021/damienly/wordpress_projet_pro/wp-content/uploads/2021/03/3127_00044-min-scaled.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* logo */
+.wp-image-1374{
+  width: 45%;
+  margin: auto;
+}
+
+.wp-image-1551{
+  width: 55%;
+  margin: auto;
+}
+
+.wp-image-1519{
+  width: 50%;
+  margin: auto;
+}
+
+.wp-image-1417{
+  width: 45%;
+  margin: auto;
+}
+
+/* blocs */
+.page-id-28 .has-subtle-background-background-color{
+  background-color: rgba(100, 100, 100, 0.5) !important;
+  color: white;
+  width: 100%;
+  padding: 1%;
+}
+
+.page-id-1070 .has-subtle-background-background-color{
+  background-color: rgba(0,0,0,0.7) !important;
+  width: 85%;
+  margin: auto;
+}
+
+/* text */
+.page-id-28 .wp-block-column h2{
+  font-size: 1.4em;
+}
+
+.page-id-28 .wp-block-column p{
+  font-size: 0.9em;
+}
+
+body.page-id-1070 h3{
+  font-size: 1.1em;
+  color: white;
+}
+
+body.page-id-1070 a{
+  color: white;
+  font-size: 0.9em;
+}
+
+/* End Page Media desktop */
+
+/* Page Media mobile */
+body.page-id-1761{
+  background-image:url("https://etudiants-caweb.u-strasbg.fr/2021/damienly/wordpress_projet_pro/wp-content/uploads/2021/03/3127_00044-min-scaled.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* logo */
+body.page-id-1761 .wp-image-1374{
+  width: 60%;
+  margin: auto;
+}
+
+/* blocs */
+body.page-id-1761 .has-subtle-background-background-color{
+  background-color: rgba(100, 100, 100, 0.5) !important;
+  color: white;
+  width: 100%;
+  padding: 1%;
+  padding-bottom: 2%;
+}
+
+/* text */
+body.page-id-1761 .wp-block-column h2{
+  font-size: 1.4em;
+}
+
+body.page-id-1761 .wp-block-column p{
+  font-size: 0.9em;
+}
+
+/* End Page Media mobile */
+
+
+/* Page Access desktop */
+body.page-id-14, body.page-id-1043:lang(en), body.page-id-1241:lang(fr), body.page-id-1270{
+  background-image:url("https://etudiants-caweb.u-strasbg.fr/2021/damienly/wordpress_projet_pro/wp-content/uploads/2021/03/2819_00009-min-scaled.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* bannière */
+body.page-id-14 #site-content{
+  background-image: url("https://etudiants-caweb.u-strasbg.fr/2021/damienly/wordpress_projet_pro/wp-content/uploads/2021/04/access-1024x299.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* logo */
+.wp-image-620{
+  width: 45%;
+  margin: auto;
+}
+
+.wp-image-1549{
+  width: 50%;
+  margin: auto;
+}
+
+.wp-image-1521{
+  width: 50%;
+  margin: auto;
+}
+
+.wp-image-1421{
+  width: 45%;
+  margin: auto;
+}
+
+/* text */
+body.page-id-14 h2, body.page-id-1043 h2, body.page-id-1241 h2, body.page-id-1270 h2{
+  text-align: center;
+  font-size: 1.4em;
+}
+
+body.page-id-14 h3, body.page-id-1043 h3, body.page-id-1241 h3, body.page-id-1270 h3{
+  font-size: 1em;
+}
+
+body.page-id-14 p, body.page-id-1043 p, body.page-id-1241 p, body.page-id-1270 p{
+  font-size: 0.9em;
+}
+
+/* map */
+body.page-id-14 .map{
+  width: 45% !important;
+}
+
+/* End Page Access desktop */
+
+/* Page Access mobile */
+body.page-id-1760{
+  background-image:url("https://etudiants-caweb.u-strasbg.fr/2021/damienly/wordpress_projet_pro/wp-content/uploads/2021/03/2819_00009-min-scaled.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* logo */
+body.page-id-1760 .wp-image-620{
+  width: 60%;
+  margin: auto;
+}
+
+/* text */
+body.page-id-1760 h2{
+  text-align: center;
+  font-size: 1.4em;
+}
+
+body.page-id-1760 h3{
+  font-size: 1em;
+}
+
+body.page-id-1760 p{
+  font-size: 0.9em;
+}
+
+/* End Page Access mobile */
+
+
+/* background color and character color of body */
+#site-content{
+  background-color: rgba(0,0,0,0.6);
+  color: white;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 1%;
+}
+
+/* Footer */
+#site-footer{
+  background-color: rgba(0,0,0,0.6) !important;
+  color: white;
+  margin-left: 4%;
+  margin-right: 4%;
+  padding-bottom: 2%;
+}
+
+.footer-top-visible .footer-nav-widgets-wrapper{
+  background-color: rgba(0,0,0,0.6);
+  color: white;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.sfsiplus_footerLnk{
+  display: none;
+}
+
+/* text */
+.widget_text.widget-content p{
+  font-size: 0.8em;
+}
+
+.widget_text.widget-content h6{
+  font-size: 0.9em;
+}
+
+/* reservation button */
+.image.wp-image-1382, .image.wp-image-1429{
+  width: 30% !important;
+  position: relative;
+  left: 20%;
+  top: 50%;
+}
+
+.image.wp-image-1526, .image.wp-image-1548{
+  width: 40% !important;
+  position: relative;
+  left: 20%;
+  top: 50%;
+}
+
+/* Facebook */
+.image.wp-image-566.attachment-full.size-full{
+  width: 6% !important;
+  position: relative;
+  left: 92%;
+}
+
+/* Twitter */
+.image.wp-image-567.attachment-full.size-full{
+  width: 6% !important;
+  position: relative;
+  left: 92%;
+}
+
+/* SNS icons */
+body > div.footer-nav-widgets-wrapper.header-footer-group > div > div > nav > ul > li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-2227{
+  margin-left: auto;
+}
+body > div.footer-nav-widgets-wrapper.header-footer-group > div > div > nav > ul> li> a{
+  background-color:#8C1F28;
+}
+
+body > div.footer-nav-widgets-wrapper.header-footer-group > div > aside{
+  padding-top: 3%;
+  padding-bottom: 1%;
+}
+
+#site-footer > div > div > p.powered-by-wordpress > a{
+  display: none;
+}
+
+/* End Footer */
+
+
+/* Home page desktop */
+body.page-id-2, body.page-id-1048:lang(en), body.page-id-1049:lang(fr), body.page-id-1050{
+  background-image:url("https://etudiants-caweb.u-strasbg.fr/2021/damienly/wordpress_projet_pro/wp-content/uploads/2021/03/2793_00001-min-scaled.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body.page-id-2 .bloc-page-id-2{
+  /*background-color: rgba(0,0,0,0.7) !important;
+  width: 75% !important;
+  height: 40% !important;*/
+  display: none;
+}
+
+/* text */
+body.page-id-2 p, body.page-id-1048 p{
+  font-size: 0.9em;
+}
+
+body.page-id-1049 p{
+  font-size: 0.9em;
+  text-align: justify;
+}
+
+body.page-id-1050 p{
+  font-size: 1em;
+}
+
+/* images */
+.wp-image-1949, .wp-image-1953, .wp-image-1957, .wp-image-1960{
+  width: 80%;
+}
+
+.wp-image-2054{
+
+}
+
+body.page-id-2 img.wp-image-353{
+  width: 15%;
+  position: absolute;
+  left: 4%;
+  top: 35%;
+}
+
+/* End Home page desktop */
+
+/* Home page mobile */
+body.page-id-1726{
+  background-image:url("https://etudiants-caweb.u-strasbg.fr/2021/damienly/wordpress_projet_pro/wp-content/uploads/2021/03/2793_00001-min-scaled.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body.page-id-1726 .bloc-page-id-2{
+  /*background-color: rgba(0,0,0,0.7) !important;
+  width: 75% !important;
+  height: 40% !important;*/
+  display: none;
+}
+
+/* image */
+.wp-image-353{
+  width: 60%;
+}
+
+/* End Home page mobile */
+
+
+/* Page Contact desktop */
+body.page-id-16, body.page-id-1064:lang(en), body.page-id-1243:lang(fr), body.page-id-1273{
+  background-image:url("https://etudiants-caweb.u-strasbg.fr/2021/damienly/wordpress_projet_pro/wp-content/uploads/2021/03/2958_00021-min-scaled.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* logos */
+.wp-image-625{
+  width: 45%;
+  margin: auto;
+}
+
+.wp-image-1546{
+  width: 55%;
+  margin: auto;
+}
+
+.wp-image-1530{
+  width: 50%;
+  margin: auto;
+}
+
+.wp-image-1423{
+  width: 45%;
+  margin: auto;
+}
+
+/* text */
+body.page-id-16 .petit, body.page-id-1064 .petit,  body.page-id-1243 .petit, body.page-id-1273 .petit{
+  font-size: 0.7em;
+}
+
+body.page-id-16 .contact-text, body.page-id-1064 .contact-text,  body.page-id-1243 .contact-text, body.page-id-1273 .contact-text{
+  font-size: 0.9em;
+  text-align: justify;
+}
+
+/* submit button */
+#wpforms-submit-150, #wpforms-submit-1134, #wpforms-submit-1325, #wpforms-submit-1406{
+  background-color: #ffffff;
+}
+
+#wpforms-submit-150:hover, #wpforms-submit-1134:hover, #wpforms-submit-1325:hover, #wpforms-submit-1406:hover{
+    color: white;
+    background-color: #8C1F28;
+    border-color: #8C1F28;
+}
+
+/* End Page Contact desktop */
+
+/* Page Contact mobile */
+body.page-id-1732{
+  background-image:url("https://etudiants-caweb.u-strasbg.fr/2021/damienly/wordpress_projet_pro/wp-content/uploads/2021/03/2958_00021-min-scaled.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* logo */
+body.page-id-1732 .wp-image-625{
+  width: 60%;
+  margin: auto;
+}
+
+/* text */
+body.page-id-1732 .petit{
+  font-size: 0.7em;
+}
+
+body.page-id-1732 .kojinjouhou, body.page-id-1734 .kojinjouhou, body.page-id-1756 .kojinjouhou{
+  background-color: rgba(100, 100, 100, 0.5) !important;
+  width: 90% !important;
+  overflow: auto;
+  padding: 1% !important;
+}
+
+/* End Page Contact mobile */
+
+
+/* Page Job offer desktop */
+body.page-id-32, body.page-id-1082:lang(en), body.page-id-1249:lang(fr), body.page-id-1279{
+  background-image:url("https://etudiants-caweb.u-strasbg.fr/2021/damienly/wordpress_projet_pro/wp-content/uploads/2021/03/2958_00021-min-scaled.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ /* images */
+body.page-id-32 .wp-image-1378{
+   width: 45%;  margin: auto;
+  /*position: relative;
+  top: 10%;
+  right: 10%;*/
+}
+
+.wp-image-1543{
+  width: 45%;
+  margin: auto;
+}
+
+.wp-image-1576{
+  width: 45%;
+  margin: auto;
+}
+
+.wp-image-1425{
+  width: 45%;
+  margin: auto;
+}
+
+/*body.page-id-32 .wp-image-724{
+  width: 35%;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+}*/
+
+/* text */
+body.page-id-32 .petit, body.page-id-1082 .petit, body.page-id-1249 .petit, body.page-id-1279 .petit{
+  font-size: 0.7em;
+}
+
+.job-text{
+  font-size: 0.8em;
+  margin-top: 5%;
+}
+
+body.page-id-32 h5, body.page-id-1082 h5, body.page-id-1249 h5, body.page-id-1279 h5{
+  font-size: 1em;
+  text-decoration: underline;
+  font-weight: normal;
+  color: #edc12f;
+}
+
+body.page-id-32 p.texte, body.page-id-1082 p.texte, body.page-id-1249 p.texte, body.page-id-1279 p.texte{
+  font-size: 0.8em;
+}
+
+/* blocs */
+/*body.page-id-32 .groupe-job{
+  position: relative;
+  right: 25%;
+  width: 40% !important;
+}*/
+
+/*body.page-id-32 .formulaire-job{
+  position: absolute;
+  top: 100%;
+  left: 55%;
+  width: 40% !important;
+}*/
+
+/* submit button */
+#wpforms-submit-188, #wpforms-submit-1146, #wpforms-submit-1324, #wpforms-submit-1407{
+  background-color: #ffffff;
+}
+
+#wpforms-submit-188:hover, #wpforms-submit-1146:hover, #wpforms-submit-1324:hover, #wpforms-submit-1407:hover{
+    color: white;
+    background-color: #8C1F28;
+    border-color: #8C1F28;
+}
+
+/* End Page Job offer desktop */
+
+/* Page Job offer mobile */
+body.page-id-1734{
+  background-image:url("https://etudiants-caweb.u-strasbg.fr/2021/damienly/wordpress_projet_pro/wp-content/uploads/2021/03/2958_00021-min-scaled.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ /* images */
+body.page-id-1734 .wp-image-1378{
+  width: 60%;
+  margin: auto;
+}
+
+/* text */
+
+body.page-id-1734 .petit{
+  font-size: 0.7em;
+}
+
+body.page-id-1734 h5{
+  font-size: 1em;
+  text-decoration: underline;
+  font-weight: normal;
+  color: #edc12f;
+}
+
+/* End Page Job offer mobile */
+
+
+/* Page Details desktop */
+body.page-id-1098, body.page-id-1245, body.page-id-1276{
+  background-image:url("https://etudiants-caweb.u-strasbg.fr/2021/damienly/wordpress_projet_pro/wp-content/uploads/2021/03/2894_00004-min-scaled.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* images */
+.wp-image-1541{
+  width: 50%;
+  margin: auto;
+}
+
+.wp-image-1532{
+  width: 55%;
+  margin: auto;
+}
+
+.wp-image-1427{
+  width: 45%;
+  margin: auto;
+}
+
+/* text */
+body.page-id-1098 h2, body.page-id-1245 h2, body.page-id-1276 h2{
+  font-size: 1.6em;
+  background-color: white;
+  border-radius: 5px;
+  display: inline-block;
+  width: 30% !important;
+  position: relative;
+  left: 35%;
+  padding: 2px;
+}
+
+body.page-id-1098 p, body.page-id-1245 p, body.page-id-1276 p{
+  text-align: justify;
+  font-size: 0.9em;
+}
+
+/* End Page Details desktop */
+
+
+/* Page Gallery desktop */
+body.page-id-1101, body.page-id-1499, body.page-id-1501{
+  background-image:url("https://etudiants-caweb.u-strasbg.fr/2021/damienly/wordpress_projet_pro/wp-content/uploads/2021/03/2968_00025-min-scaled.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* images */
+.wp-image-1537{
+  width: 60%;
+  margin: auto;
+}
+
+.wp-image-1534{
+  width: 50%;
+  margin: auto;
+}
+
+.wp-image-1503{
+  width: 45%;
+  margin: auto;
+}
+
+/* text */
+span.label, span.page-number{
+  font-weight: normal;
+  text-decoration: none;
+}
+
+/* End Page Gallery desktop */
+
+
+/* Page mobile langues étrangères */
+/* English */
+body.page-id-1790 .kojinjouhou, body.page-id-1785 .kojinjouhou, body.page-id-1787 .kojinjouhou{
+  background-color: rgba(100, 100, 100, 0.5) !important;
+  width: 90% !important;
+  overflow: auto;
+  padding: 1% !important;
+}
+
+body.page-id-1790 .petit, body.page-id-1785 .petit, body.page-id-1787 .petit{
+  font-size: 0.7em;
+}
+
+/* French */
+body.page-id-1788 .kojinjouhou, body.page-id-1786 .kojinjouhou, body.page-id-1789 .kojinjouhou{
+  background-color: rgba(100, 100, 100, 0.5) !important;
+  width: 90% !important;
+  overflow: auto;
+  padding: 1% !important;
+}
+
+body.page-id-1788 .petit, body.page-id-1786 .petit, body.page-id-1789 .petit{
+  font-size: 0.7em;
+}
+
+/* Chinese */
+body.page-id-1793 .kojinjouhou, body.page-id-1791 .kojinjouhou, body.page-id-1792 .kojinjouhou{
+  background-color: rgba(100, 100, 100, 0.5) !important;
+  width: 90% !important;
+  overflow: auto;
+  padding: 1% !important;
+}
+
+body.page-id-1793 .petit, body.page-id-1791 .petit, body.page-id-1792 .petit{
+  font-size: 0.7em;
+}
+
+/* Support us */
+body.page-id-1790, body.page-id-1788, body.page-id-1793{
+  background-image:url("https://etudiants-caweb.u-strasbg.fr/2021/damienly/wordpress_projet_pro/wp-content/uploads/2021/03/3115_00041-min-scaled.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body.page-id-1790 h2, body.page-id-1788 h2, body.page-id-1793 h2{
+  font-size: 1.5em;
+}
+
+body.page-id-1790 h3, body.page-id-1788 h3, body.page-id-1793 h3{
+  font-size: 1.2em;
+}
+
+body.page-id-1790 p, body.page-id-1788 p, body.page-id-1793 p{
+  font-size: 0.9em;
+  text-align: justify;
+}
+
+/* Contact */
+body.page-id-1785, body.page-id-1786, body.page-id-1791{
+  background-image:url("https://etudiants-caweb.u-strasbg.fr/2021/damienly/wordpress_projet_pro/wp-content/uploads/2021/03/2958_00021-min-scaled.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body.page-id-1785 .contact-text, body.page-id-1786 .contact-text,  body.page-id-1791 .contact-text{
+  font-size: 0.9em;
+}
+
+/* Job offers*/
+body.page-id-1787, body.page-id-1789, body.page-id-1792{
+  background-image:url("https://etudiants-caweb.u-strasbg.fr/2021/damienly/wordpress_projet_pro/wp-content/uploads/2021/03/2958_00021-min-scaled.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body.page-id-1787 h5, body.page-id-1789 h5, body.page-id-1792 h5{
+  font-size: 1em;
+  text-decoration: underline;
+  font-weight: normal;
+  color: #edc12f;
+}
+
+body.page-id-1787 p.texte, body.page-id-1789 p.texte, body.page-id-1792 p.texte{
+  font-size: 0.8em;
+}
+
+/* End Page mobile langues étrangères */
+
+
+/* Blog page desktop */
+body.page-id-18{
+  background-image:url("https://etudiants-caweb.u-strasbg.fr/2021/damienly/wordpress_projet_pro/wp-content/uploads/2021/03/2968_00025-min-scaled.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* logo*/
+.wp-image-628{
+  width: 40%;
+  position: relative;
+  top: 10%;
+  right: 10%;
+}
+
+/* blocs */
+.tokushuu{
+  background-color: rgba(0,0,0,0.7) !important;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 1%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+}
+
+.wadai{
+  background-color: rgba(0,0,0,0.7) !important;
+  width: 25%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 1%;
+  position: absolute;
+  top: 40%;
+  left: 60%;
+}
+
+/* text */
+body.page-id-18 h2{
+  font-size: 1.5em;
+}
+
+body.page-id-18 p.wp-block-tag-cloud a{
+  color: white;
+  text-decoration: none;
+  font-size: 0.8em !important;
+}
+
+/* End Blog page desktop */
+
+
+/* Articles desktop */
+body.archive.tag, body.postid-447{
+  background-image:url("https://etudiants-caweb.u-strasbg.fr/2021/damienly/wordpress_projet_pro/wp-content/uploads/2021/03/2968_00025-min-scaled.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header.archive-header{
+  display: none;
+}
+
+/* text */
+#post-447 p.wp-block-tag-cloud a{
+  color: white;
+  text-decoration: none;
+  font-size: 1em !important;
+}
+
+#post-447 h2{
+   font-size: 1.3em;
+   font-weight: normal;
+ }
+
+#post-447 p{
+  font-size: 0.9em;
+}
+
+/* social media icons */
+#post-447 img.sfcm.sfsi_wicon{
+  width: 30px;
+  height: 30px;
+  position: relative;
+  left: 280px;
+  top: 50px;
+}
+
+/* calendar */
+#wp-calendar td{
+  color: white;
+}
+
+#wp-calendar td a{
+  text-decoration: none;
+}
+
+#wp-calendar caption{
+  color: white;
+  background-color: rgba(0,0,0,0.7);
+}
+
+#wp-calendar thead tr th{
+  background-color: rgba(0,0,0,0.7);
+}
+
+/* End Articles desktop */
